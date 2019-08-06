@@ -3,11 +3,35 @@
     "description": "CloudFormation for PHP core SDK.",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "aws",
+        "cloudformation",
+        "cloud"
+    ],
     "authors": [
         {
             "name": "Steven Crothers",
             "email": "steven@crothers.family"
         }
     ],
-    "require": {}
+    "support": {
+        "issues": "https://github.com/cloudformation-php/core/issues",
+        "source": "https://github.com/cloudformation-php/core",
+        "rss": "https://github.com/cloudformation-php/core/commits/master.atom"
+    },
+    "autoload": {
+        "psr-4": { "CloudFormation\\Core\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "CloudFormation\\Core\\Tests\\": "tests/" }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "aws/aws-sdk-php": "^3.108",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
 }
