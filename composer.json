@@ -1,0 +1,13 @@
+{
+    "name": "cloudformation/core",
+    "description": "CloudFormation for PHP core SDK.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steven Crothers",
+            "email": "steven@crothers.family"
+        }
+    ],
+    "require": {}
+}
